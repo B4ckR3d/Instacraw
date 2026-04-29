@@ -30,6 +30,7 @@ Buka terminal/cmd di folder ini, lalu:
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+or manually pip3 install fastapi uvicorn instaloader openpyxl requests pydantic
 ```
 
 ### 3. Jalankan server
