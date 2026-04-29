@@ -27,12 +27,15 @@ Download di: https://python.org
 ### 2. Install dependencies
 Buka terminal/cmd di folder ini, lalu:
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 ### 3. Jalankan server
 ```bash
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 8000 or, if error
+python3 -m uvicorn main:app --reload --port 8000
 ```
 
 ### 4. Buka Swagger UI
